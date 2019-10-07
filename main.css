@@ -1,40 +1,43 @@
-body {
-    font-family: Arial, Helvetica, sans-serif
-    background: 
-    color: 
-    font-size:1rem;
-    font-weight: 400;
-
+.div.h2 {
+    font-weight:lighter;
 }
 
+#div1 {
+    background: url("https://www.hulu.com/static/hitch/s3/2018-01/1600-lifestyle-background%402x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-
-
-
-
-
-.startFreeTrial{
-    float: right;
-    font-weight: 100;
-    font-size: 18px;
-    border-radius: 4px;
-}
-
-.logIn{
-float: right;
-font-weight: 100;
-font-size: 18px;
-border-radius: 4px;
-}
-
-
-#img{
-    view-width: 1000vw;
-    height:1000vh;
-}
 
 
 a:hover, a:visited, a:link, a:active
 {
    text-decoration: none;
+}
+
+.freeTrialBox{
+    width: 230px;
+    height: 50px;
+    font: 15px black;
+    align-content: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    border-radius: 1%;
+}
+
+#text{
+    font-family:  'Poiret One', sans-serif;
+    font: 15px black;
+    margin: auto;
+    padding: 10px;
+    color:black;
+    
+}
+
+
+.img{
+    width: 700;
+    height: 700;
 }
